@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>Kernel parameter changes | Release Notes | SUSE Linux Enterprise Server 15 SP5 (prerelease)</title><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/><link rel="stylesheet" type="text/css" href="static/css/style-new.css"/>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/"/><link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+<meta name="dcterms.modified" content=""/>
+<meta name="dcterms.dateSubmitted" content="2026-07-28"/>
+<meta name="title" content="Kernel parameter changes | SUSE Linux Enterprise Serve…"/>
+<meta name="description" content="Kernel parameter changes"/>
+<meta name="product-name" content="SUSE Linux Enterprise Server"/>
+<meta name="product-number" content="15 SP5 (prerelease)"/>
+<meta name="book-title" content="Release Notes"/>
+<meta name="chapter-title" content="B. Kernel parameter changes"/>
+<meta name="tracker-url" content="https://bugzilla.suse.com/enter_bug.cgi"/>
+<meta name="tracker-type" content="bsc"/>
+<meta name="tracker-bsc-assignee" content="lukas.kucharczyk@suse.com"/>
+<meta name="tracker-bsc-component" content="Release Notes"/>
+<meta name="tracker-bsc-product" content="PUBLIC SUSE Linux Enterprise Server 15 SP5"/>
+<meta name="publisher" content="SUSE"/><meta property="og:title" content="Kernel parameter changes | SUSE Linux Enterprise Serve…"/>
+<meta property="og:description" content="Kernel parameter changes"/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kernel parameter changes | SUSE Linux Enterprise Serve…"/>
+<meta name="twitter:description" content="Kernel parameter changes"/>
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "name": "Kernel parameter changes | SUSE Linux Enterprise Server 15 SP5 (prerelease)",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products &amp; Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Kernel parameter changes",
+    "description": "Kernel parameter changes",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product &amp; Solution Documentation Team",
+        "url": "https://documentation.suse.com"
+      }
+    ],
+    "datePublished": "2026-07-28T13:59+02:00",
+    "about": [
+
+    ],
+    "mentions": [
+      { "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server",
+        "softwareVersion": "15 SP5 (prerelease)",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+          "https://www.facebook.com/SUSEWorldwide/about",
+          "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+          "https://twitter.com/SUSE",
+          "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }</script>
+<link rel="prev" href="changelog.html" title="A. Changelog for 15 SP5 (prerelease)"/><link type="text/css" rel="preload" as="style" onload="this.rel='stylesheet'" href="https://documentation.suse.com/docserv/res/fonts/suse/suse.css"/><script src="static/js/script-purejs.js" type="text/javascript"></script><script src="static/js/highlight.js" type="text/javascript"></script><script>hljs.highlightAll();</script><script src="static/js/ui-modifiers.js" type="text/javascript"></script></head><body class="draft wide offline js-off" onload="$('#betawarn-button-wrap').toggle();if (document.cookie.length > 0) {if (document.cookie.indexOf('betawarn=closed') != -1){$('#betawarn').toggle()}};"><div id="betawarn" style="position:fixed;bottom:0;z-index:9025;background-color:#FDE8E8;padding:1em;margin-left:10%;margin-right:10%;display:block;border-top:.75em solid #E11;width:80%"><p style="color:#333;margin:1em 0;padding:0;">This is a draft document that was built and uploaded automatically. It may document beta software and be incomplete or even incorrect. <strong>Use this document at your own risk.</strong></p> <div id="betawarn-button-wrap" style="display:none;margin:0;padding:0;"><a href="#" onclick="$('#betawarn').toggle();var d=new Date();d.setTime(d.getTime()+(0.5*24*60*60*1000));document.cookie='betawarn=closed; expires='+d.toUTCString()+'; path=/'; return false;" style="color:#333;text-decoration:underline;float:left;margin-top:.5em;padding:1em;display:block;background-color:#FABEBE;">I understand this is a draft</a></div></div><div class="bypass-block"><a href="#_content">Jump to content</a><a href="#_bottom-pagination">Jump to page navigation: previous page [access key p]/next page [access key n]</a></div><header id="_mainnav"><div class="growth-inhibitor"><a href="https://documentation.suse.com/"><img src="static/images/logo.svg" alt="Logo" class="logo"/></a></div></header><div class="crumbs"><div class="growth-inhibitor"><a class="crumb overview-link" href="https://documentation.suse.com/releasenotes/" title="Back to Release Notes for SUSE products"/><span class="sep">|</span><a class="crumb index-page-crumb" href="">Index</a><span class="sep">|</span><a class="crumb" href="index.html">Release Notes</a><span class="sep">|</span><a class="crumb" href="kernel-parameter-changes.html">Kernel parameter changes</a></div></div><main id="_content"><nav id="_side-toc-overall" tabindex="0" class="side-toc"><div class="side-title">Release Notes</div><ol role="list"><li role="listitem"><a href="index.html#about" class=" "><span class="title-number">1 </span><span class="title-name">About the release notes</span></a></li><li role="listitem"><a href="index.html#intro" class=" "><span class="title-number">2 </span><span class="title-name">SUSE Linux Enterprise Server</span></a></li><li role="listitem"><a href="index.html#intro-module-extension-related" class=" "><span class="title-number">3 </span><span class="title-name">Modules, extensions, and related products</span></a></li><li role="listitem"><a href="index.html#install-upgrade" class=" "><span class="title-number">4 </span><span class="title-name">Installation and upgrade</span></a></li><li role="listitem"><a href="index.html#all-architecture" class=" "><span class="title-number">5 </span><span class="title-name">Changes affecting all architectures</span></a></li><li role="listitem"><a href="index.html#power" class=" "><span class="title-number">6 </span><span class="title-name">POWER-specific changes (ppc64le)</span></a></li><li role="listitem"><a href="index.html#ibm-z" class=" "><span class="title-number">7 </span><span class="title-name">IBM Z-specific changes (s390x)</span></a></li><li role="listitem"><a href="index.html#aarch64" class=" "><span class="title-number">8 </span><span class="title-name">Arm 64-bit-specific changes (AArch64)</span></a></li><li role="listitem"><a href="index.html#removed-deprecated" class=" "><span class="title-number">9 </span><span class="title-name">Removed and deprecated features and packages</span></a></li><li role="listitem"><a href="index.html#source-code" class=" "><span class="title-number">10 </span><span class="title-name">Obtaining source code</span></a></li><li role="listitem"><a href="index.html#legal" class=" "><span class="title-number">11 </span><span class="title-name">Legal notices</span></a></li><li role="listitem"><a href="changelog.html" class=" "><span class="title-number">A </span><span class="title-name">Changelog for 15 SP5 (prerelease)</span></a></li><li role="listitem"><a href="kernel-parameter-changes.html" class=" you-are-here"><span class="title-number">B </span><span class="title-name">Kernel parameter changes</span></a></li> </ol> </nav><button id="_open-side-toc-overall" title="Contents"> </button><article class="documentation"><button id="_unfold-side-toc-page">On this page</button><section class="appendix" id="kernel-parameter-changes" data-id-title="Kernel parameter changes"><div class="titlepage"><div><div class="version-info">Applies to  <span class="productname">SUSE Linux Enterprise Server</span> <span class="productnumber">15 SP5 (prerelease)</span></div><div><div class="title-container"><h1 class="title"><span class="title-number-name"><span class="title-number">B </span><span class="title-name">Kernel parameter changes</span></span> <a title="Permalink" class="permalink" href="kernel-parameter-changes.html#">#</a></h1><div class="icons"><a target="_blank" class="icon-reportbug" title="Report an issue"> </a></div></div></div></div></div><div id="id-1.15.2" class="admonition warning normal"><img class="symbol" alt="Warning" title="Warning" src="static/images/icon-warning.svg"/><div class="admon-title">Warning</div><p>This list of changes may not be exhaustive.</p></div><section class="sect2" id="kernel-parameter-changes-last-sp" data-id-title="Changes from SP4 to SP5"><div class="titlepage"><div><div><div class="title-container"><h3 class="title"><span class="title-number-name"><span class="title-number">B1 </span><span class="title-name">Changes from SP4 to SP5</span></span> <a title="Permalink" class="permalink" href="kernel-parameter-changes.html#kernel-parameter-changes-last-sp">#</a></h3><div class="icons"><a target="_blank" class="icon-reportbug" title="Report an issue"> </a></div></div></div></div></div><p>These Linux kernel parameters have been changed since SLES 15 SP4.</p></section></section><nav class="bottom-pagination"><div><a class="pagination-link prev" href="changelog.html"><span class="pagination-relation">Previous</span><span class="pagination-label"><span class="title-number">Appendix A </span>Changelog for 15 SP5 (prerelease)</span></a> </div><div> </div></nav></article><aside id="_side-toc-page" class="side-toc"><div class="side-title">On this page</div><div class="side-title">Share this page</div><ul class="share"><li><a id="_share-mail" href="#" title="E-Mail"> </a></li><li><a id="_print-button" href="#" title="Print this page"> </a></li></ul> </aside></main><footer id="_footer"><div class="growth-inhibitor"><div class="copy"><span class="copy__rights">© SUSE  2026</span></div></div></footer>
+<script type="text/javascript" src="static/js/language-switcher.js"> </script></body></html>
